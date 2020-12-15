@@ -13,4 +13,29 @@
 }
 .nav__a {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__chat-notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__el-notification {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  display: flex;
+  position: absolute;
+  left: 35px;
 }
