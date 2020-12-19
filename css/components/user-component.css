@@ -47,3 +47,18 @@ user-component__subtitle {
   margin-bottom: 5px;
   display: block;
 }
+.user-component__subtitle-box {
+  display: flex;
+}
+
+.user-component__subtitle-box span {
+  display: flex;
+
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: red;
+  border: 1.5px solid red;
+  margin-left: 5px;
+}
